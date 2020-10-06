@@ -1,0 +1,92 @@
+
+@font-face {
+  font-family: 'Kreon';
+  src: url('/fonts/Kreon/Kreon-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Staatliches';
+  src: url('/fonts/Staatliches/Staatliches-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Keswick';
+  src: url('/fonts/Keswick/DK\ Keswick.otf');
+}
+
+/*font-size para iconos*/
+.icono{
+  font-size: 1.5rem !important;
+}
+
+.fs-10{
+  font-size: 5rem;
+}
+
+.fs-5{
+  font-size: 2.5rem;
+}
+
+.hero{
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  height: calc(100vh - 68px);
+}
+
+@media(min-width:770px){
+  .fs-10{
+      font-size: 8rem;
+  }
+  
+  .fs-5{
+      font-size: 3rem;
+  }
+}
+
+@media(min-width:935px){
+  .fs-10{
+      font-size: 10rem;
+  }
+  
+  .fs-5{
+      font-size: 5rem;
+  }
+}
+
+.hero img{
+  filter: invert(1);
+  max-width: 10rem;
+}
+
+.hero div{
+  z-index: 2;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.fw-700{
+  font-weight: lighter;
+}
+
+.quienes-somos{
+  height: 20rem;
+}
+
+@media(min-width:770px){
+  .quienes-somos{
+      height: 30rem;
+  }
+}
+
+.wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 1rem;
+  row-gap: 2rem;
+}
+
